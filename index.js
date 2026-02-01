@@ -8,3 +8,8 @@ function daysinmonth(m, y){
 }
 document.getElementById("akanForm").addEventListener("submit", function(e) {
   e.preventDefault();
+    const year  = parseInt(document.getElementById("year").value);
+    const month = parseInt(document.getElementById("month").value);
+    const day   = parseInt(document.getElementById("day").value);
+    const genderSel = document.querySelector('input[name="gender"]:checked');
+    const gender = genderSel ? genderSel.value : null;
