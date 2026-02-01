@@ -35,8 +35,5 @@ Examples:
 - **CSS3** – Modern styling with earthy Ghanaian color palette
 - **JavaScript** – Date logic & name calculation
 No frameworks, no build tools — pure front-end magic.
-
-## How to Use Locally
-
-1. Clone the repo:
    
+
