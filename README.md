@@ -1,12 +1,9 @@
 # Akan Name Generator
 Author:BRYAN RONOH
+
 A simple, beautiful web app that generates your traditional **Akan day name** (from Ghanaian culture) based on your date of birth and gender.
 
-![Akan Name Generator Preview](https://via.placeholder.com/800x400/8d5524/ffffff?text=Akan+Name+Generator+Preview)  
-<!-- Replace the link above later with a real screenshot of your app -->
-
-Live Demo → [https://yourusername.github.io](https://yourusername.github.io)  
-*(or replace with your actual GitHub Pages link once deployed)*
+Live Demo →(https://rizz-mangwai.github.io/bryann/)  
 
 ## What are Akan Names?
 
