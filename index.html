@@ -9,39 +9,47 @@
 <body>
     <div class="container">
       <h1>Akan Name Generator</h1>
-      <P>Enter your birth date and gender to discover your Akan name (Ghanaian day-name tradition).</P>  
-       
-      <form id="akanform">
-        <div class="form-group">
-            <label for="year">Year</label>
-            <input type="number" id="year" min="1900" max="2100" placeholder="e.g.1995" required>
-        </div>
+      <P>The Akan are a major Kwa-speaking ethnic group and language cluster (including Twi and Fante) primarily located in southern/central Ghana and Ivory Coast. With over 20 million speakers, it is a dominant language in Ghana. They are traditionally matrilineal, known for gold artistry, and historically organized into powerful, centralized kingdoms. 
+        Enter your birth date and gender to discover your Akan name (Ghanaian day-name tradition).</P>  
+       <form id="akanForm">
+  <div class="form-group">
+    <label for="year">Year:</label>
+    <input type="number" id="year" min="1900" max="2100" placeholder="e.g. 1995" required>
+  </div>
 
-        <div class ="form-group">
-           <label for="month">Day (1-31):</label> 
-           <input type="number" id="day" min="1" max="31" placeholder="e.g.23" required>
-        </div>
+  <div class="form-group">
+    <label for="month">Month (1-12):</label>
+    <input type="number" id="month" min="1" max="12" placeholder="e.g. 7" required>
+  </div>
 
-        <div class="form-group">
-            <label for="day">Month (1-12):</label>
-            <input type="number" id="month" min="1" max="31" placeholder="e.g.7" required>
-        </div>
+  <div class="form-group">
+    <label for="day">Day (1-31):</label>
+    <input type="number" id="day" min="1" max="31" placeholder="e.g. 23" required>
+  </div>
 
-        <div class="form-group radio-group">
-            <label>Gender:</label>
-            <label><input type="radio" name="gender" value="male" required>Male</label>
-            <label><input type="radio" name="gender" value="female">Female</label>
+  <div class="form-group radio-group">
+    <fieldset>
+      <legend>Gender</legend>
 
-        </div>
-        <button type="submit">Generate Akan name</button>
- 
-     </form>
-     <div id="result" class="result hidden">
-        <h2>Your Akan Name</h2>
-        <p id="nameoutput"></p>
-        <p id="dayoutput"></p>
-     </div>
-    </div>
-    <script src="index.js"></script>
+      <label for="gender-male">
+        <input type="radio" id="gender-male" name="gender" value="male" required> Male
+      </label>
+
+      <label for="gender-female">
+        <input type="radio" id="gender-female" name="gender" value="female"> Female
+      </label>
+    </fieldset>
+  </div>
+
+  <button type="submit">Generate Akan Name</button>
+</form>
+
+ <div id="result" class="result hidden">
+  <h2>Your Akan Name</h2>
+  <p id="nameOutput"></p>          
+  <p id="dayOutput"></p>           
+</div>
+   <script src="script.js"></script>
 </body>
+ 
 </html>
